@@ -72,6 +72,8 @@ the account verification message.)`,
     let j = 5+1;
     console.log(j);
     console.log(newEmailAddress,'testing this what ?-')
+
+    console.log('dasdjadjadajdajdajsja');
     // Build up data for the new user record and save it to the database.
     // (Also use `fetch` to retrieve the new ID so that we can use it below.)
     var newUserRecord = await User.create(_.extend({
