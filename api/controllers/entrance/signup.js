@@ -69,7 +69,7 @@ the account verification message.)`,
   fn: async function (inputs) {
 
     var newEmailAddress = inputs.emailAddress.toLowerCase();
-    console.log(newEmailAddress,'testing this what ?')
+    console.log(newEmailAddress,'testing this what ?-')
     // Build up data for the new user record and save it to the database.
     // (Also use `fetch` to retrieve the new ID so that we can use it below.)
     var newUserRecord = await User.create(_.extend({
